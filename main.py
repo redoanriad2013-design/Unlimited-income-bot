@@ -80,8 +80,8 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 def main():
-    # '8839815804:AAE5g57VNnvNE0gK_Ii5INqcGIVCBbRTKL0' সরিয়ে আপনার আসল Bot Token দিন
-    app = Application.builder().token("YOUR_BOT_TOKEN_HERE").build()
+    # '8839815804:AAE5g57VNnvNE0gK_Ii5INqcGIVCBbRTKL0' 
+    app = Application.builder().token("8839815804:AAE5g57VNnvNE0gK_Ii5INqcGIVCBbRTKL0").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(
